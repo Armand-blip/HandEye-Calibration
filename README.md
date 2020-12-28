@@ -5,5 +5,5 @@ calibrFunction.m make the calibration of the camera using 20 images from diifere
 extrinsicFunc.m is another function  that calculates the rotation and translation of the camera .
 mainFunc.m is the main part of the project .Here we find two transformations that are called Tc(transformation from camera to world coordinate system) and
 Tg(transformation from gripper to camera ).Then we calculate X(Hand-Eye) in order to find the thing that we want.
-All this procedure it is neccessary for robot to take the object in the ground with and move it to another position automatically.
+All this procedure it is neccessary for robot to take the object in the ground with a high precision and move it to another position automatically.
 For more information :armand.palla@stud.unifi.it
